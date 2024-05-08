@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class clase5 {
     public static void main (String []ar ){
         float r,h,a;
-        Scanner teclado = new Scanner ;
+        Scanner teclado = new Scanner (System.in);
         System.out.println("ingrese primer valor (R)");
         r=teclado.nextFloat();
         System.out.println("ingrese segundo valor (H)");
