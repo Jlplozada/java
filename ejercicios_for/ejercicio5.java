@@ -10,5 +10,8 @@ import java.util.Scanner;
 // c) Mostrar por pantalla un mensaje que indique cual de los tres turnos tiene un promedio de edades menor.
 
 public class ejercicio5 {
-    Scanner teclado=new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner teclado=new Scanner(System.in);
+        
+    }
 }

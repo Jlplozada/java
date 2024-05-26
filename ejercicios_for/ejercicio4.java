@@ -6,5 +6,8 @@ import java.util.Scanner;
 // c) La cantidad de múltiplos de 15.
 // d) El valor acumulado de los números ingresados que son pares.
 public class ejercicio4 {
-    Scanner teclado=new Scanner(System.in);
+    public static void main(String[] args) {
+            Scanner teclado=new Scanner(System.in);
+
+    }
 }

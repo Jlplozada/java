@@ -6,6 +6,17 @@ import java.util.Scanner;
 // b) La cantidad de triángulos cuya superficie es mayor a 12.
 
 public class ejercicio2 {
-    Scanner teclado=new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner teclado=new Scanner(System.in);
+    int n,f,altura,base,superficie;
+    n=0;
+    for(f=1;f<=n;f++){
+        System.out.println("ingrese datos de altura: ");
+        altura=teclado.nextInt();
+        System.out.println("ingrese datos de base: ");
+        base=teclado.nextInt();
+    }
+    }
+    
 }
 

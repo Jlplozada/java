@@ -7,7 +7,10 @@ import java.util.Scanner;
 // c) Tipo de triángulo que posee menor cantidad.
 
 public class ejercicio3 {
-    Scanner teclado=new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner teclado=new Scanner(System.in);
+
+    }
 }
 
 
