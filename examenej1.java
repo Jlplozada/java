@@ -16,6 +16,7 @@ public class examenej1 {
                 System.out.println("su sueldo es: "+aumento+"el aumento es: "+sueldo_a);
                 nomina+=aumento;
                 wl+=1;
+                
             }
             else{
                 sueldo_b= (float) (sueldo * 0.12);
