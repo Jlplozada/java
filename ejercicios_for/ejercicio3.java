@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class ejercicio3 {
     public static void main(String[] args) {
         Scanner teclado=new Scanner(System.in);
-        int f,n;
-        n=0;
+        int f,n,equilatero,isoseles,escaleno;
+        n=0;equilatero=0;isoseles=0;escaleno=0;
         float lado_a,lado_b,lado_c;
         for (f=1;f<=n;f++){
             System.out.print("Lado_a: ");
@@ -19,24 +19,24 @@ public class ejercicio3 {
             lado_b=teclado.nextFloat();
             System.out.print("Lado_c: ");
             lado_c=teclado.nextFloat();
-            if (lado_a==lado_b) {
-                if (lado_b==lado_c) {
-                    System.out.println("los tres lados son iguales");
-                }
-                if (lado_c==lado_a) {
-                    
-                }
-                if (lado_b==lado_a) {
-                    
-                }
+            if (lado_a==lado_b && lado_c==lado_b && lado_a==lado_c) {
+                System.out.println("triangulo equilatero");
+                equilatero+=1;
+            
             }
-            if (lado_b==lado_c) {
-                
+            if (lado_a==lado_b||lado_a ==lado_c||lado_c==lado_b) {
+                System.out.println("triangulo isoseles");
+                isoseles+=1;
             }
             else{
-                
+                System.out.println("triangulo escaleno");
+                escaleno+=1;
             }
         }
+        System.out.println("la cantidad de triangulo equilatero es: "+equilatero);
+        System.out.println("la cantidad de triangulos isoseles es: "+isoseles);
+        System.out.println("la cantidad de triangulo escalenmo es: "+escaleno);
+       
     }
 }
 
