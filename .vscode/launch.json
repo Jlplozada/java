@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "eje3_14_06",
+            "request": "launch",
+            "mainClass": "eje3_14_06",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "tempor",
+            "request": "launch",
+            "mainClass": "tempor",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "eje2_14_06",
+            "request": "launch",
+            "mainClass": "eje2_14_06",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "eje1_14_06",
+            "request": "launch",
+            "mainClass": "eje1_14_06",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
             "name": "ej1_08_06",
             "request": "launch",
             "mainClass": "ej1_08_06",
