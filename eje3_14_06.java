@@ -9,7 +9,7 @@ public class eje3_14_06 {
         do{
             wl+=1;
             System.out.print("ingrese letra: ");
-            letra=teclado.next();
+            letra=teclado.nextLine();
             if (letra==char) {
                 vocal++;
             } else {
