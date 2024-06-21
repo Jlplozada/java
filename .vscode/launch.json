@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pizza",
+            "request": "launch",
+            "mainClass": "pizza",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "vocaleskaven",
+            "request": "launch",
+            "mainClass": "vocaleskaven",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
             "name": "eje3_14_06",
             "request": "launch",
             "mainClass": "eje3_14_06",
