@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ej1_22_06",
+            "request": "launch",
+            "mainClass": "ej1_22_06",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "ej3_21_06",
+            "request": "launch",
+            "mainClass": "ej3_21_06",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "menu2_21_06",
+            "request": "launch",
+            "mainClass": "menu2_21_06",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
             "name": "pizza",
             "request": "launch",
             "mainClass": "pizza",
