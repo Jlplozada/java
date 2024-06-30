@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tempo1_29_06",
+            "request": "launch",
+            "mainClass": "tempo1_29_06",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "eje1_28_06",
+            "request": "launch",
+            "mainClass": "eje1_28_06",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
             "name": "ej1_22_06",
             "request": "launch",
             "mainClass": "ej1_22_06",
