@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "clases_objetos_24_07",
+            "request": "launch",
+            "mainClass": "clases_objetos_24_07",
+            "projectName": "java_2e77a101"
+        },
+        {
+            "type": "java",
             "name": "tempo1_29_06",
             "request": "launch",
             "mainClass": "tempo1_29_06",
