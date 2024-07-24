@@ -1,8 +1,8 @@
 import java.util.Scanner;
 public class clases_objetos_24_07 {
     public Scanner teclado ;
-    public double dato1,dato2,dato3,pt;
-    public int op,mn;
+    public double dato1,dato2,dato3,pt,pin;
+    public int op,mn,pi;
     public String mens;
     public void text1(){
         System.out.println("        -Calculadora-             ");
@@ -36,13 +36,64 @@ public class clases_objetos_24_07 {
                     System.out.print("# ");
                     dato1=teclado.nextDouble(); 
                 } else {
-                    Scanner teclado=new Scanner(System.in);
-                    System.out.println("ingrese primer numero");
-                    System.out.print("# ");
-                    dato1=teclado.nextDouble();
-                    System.out.println("ingrese segundo numero");
-                    System.out.print("# ");
-                    dato2=teclado.nextDouble();
+                    if (op==8) {
+                        Scanner teclado=new Scanner(System.in);
+                        System.out.println("ingrese valor a calcular");
+                        System.out.print("# ");
+                        dato1=teclado.nextDouble();
+                    } else {
+                        if (op==9) {
+                            Scanner teclado=new Scanner(System.in);
+                            System.out.println("ingrese valor a calcular");
+                            System.out.print("# ");
+                            dato1=teclado.nextDouble();
+                        } else {
+                            if (op==10) {
+                                Scanner teclado=new Scanner(System.in);
+                                System.out.println("ingrese valor a calcular");
+                                System.out.print("# ");
+                                dato1=teclado.nextDouble();
+                            } else {
+                                if (op==11) {
+                                    Scanner teclado=new Scanner(System.in);
+                                    System.out.println("ingrese valor a calcular");
+                                    System.out.print("# ");
+                                    dato1=teclado.nextDouble();
+                                    System.out.println("quiere que la operacion de "+dato1+"con PI sea:");
+                                    System.out.println("1.sume");
+                                    System.out.println("2.reste");
+                                    System.out.println("3.multiplique");
+                                    System.out.println("4.divida");
+                                    dato2=teclado.nextDouble();
+                                    System.out.print("# ");
+                                } 
+                                else {
+                                    if (op==12) {
+                                        Scanner teclado=new Scanner(System.in);
+                                        System.out.println("ingrese valor a calcular");
+                                        System.out.print("# ");
+                                        dato1=teclado.nextDouble();
+                                        System.out.println("quiere que la operacion de "+dato1+"con E sea:");
+                                        System.out.println("1.sume");
+                                        System.out.println("2.reste");
+                                        System.out.println("3.multiplique");
+                                        System.out.println("4.divida");
+                                        dato2=teclado.nextDouble();
+                                        System.out.print("# ");
+
+                                    } else {
+                                        Scanner teclado=new Scanner(System.in);
+                                        System.out.println("ingrese primer numero");
+                                        System.out.print("# ");
+                                        dato1=teclado.nextDouble();
+                                        System.out.println("ingrese segundo numero");
+                                        System.out.print("# ");
+                                        dato2=teclado.nextDouble();
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -55,6 +106,8 @@ public class clases_objetos_24_07 {
         System.out.println("  7.SENO      8.COSENO    9.TANGENTE       ");
         System.out.println("  10.LOG      11.PI       12.E             ");
         op=teclado.nextInt();
+        System.out.print("# ");
+
     }
     public void op(){
         System.out.println("...");
@@ -100,18 +153,62 @@ public class clases_objetos_24_07 {
                                     } else {
                                         if (op==8) {
                                             //coseno
+                                            mens="el coseno de "+dato1+" es: ";
+                                            dato3=Math.cos(dato1);
                                         } else {
                                             if (op==9) {
                                                 //tangent
+                                                mens="la tangente de "+dato1+" es: ";
+                                                dato3=Math.tan(dato1);
                                             } else {
                                                 if (op==10) {
                                                     //log
+                                                    mens="el log de "+dato1+" es: ";
+                                                    dato3=Math.log(dato1);
                                                 } else {
                                                     if (op==11) {
                                                         //pi
+                                                        if (dato2==1) {
+                                                            dato3=dato1+3.1415;
+                                                            mens="la suma de "+dato1+" por pi es: ";
+                                                        } else {
+                                                            if (dato2==2) {
+                                                                dato3=dato1-3.1415;
+                                                                mens="la resta de "+dato1+" por pi es: ";
+                                                            } else {
+                                                                if (dato2==3) {
+                                                                    dato3=dato1*3.1415;
+                                                                    mens="la multiplicacion de "+dato1+" por pi es: ";
+                                                                } else {
+                                                                    if (dato2==4) {
+                                                                        dato3=dato1/3.1415;
+                                                                        mens="la divicion de "+dato1+" por pi es: ";
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
                                                     } else {
                                                         if (op==12) {
                                                             //e
+                                                            if (dato2==1) {
+                                                                dato3=dato1+2.7183;
+                                                                mens="la suma de "+dato1+" por E es: ";
+                                                            } else {
+                                                                if (dato2==2) {
+                                                                    dato3=dato1-2.7183;
+                                                                    mens="la resta de "+dato1+" por E es: ";
+                                                                } else {
+                                                                    if (dato2==3) {
+                                                                        dato3=dato1*2.7183;
+                                                                        mens="la multiplicacion de "+dato1+" por E es: ";
+                                                                    } else {
+                                                                        if (dato2==4) {
+                                                                            dato3=dato1/2.7183;
+                                                                            mens="la divicion de "+dato1+" por E es: ";
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
                                                         } else {
                                                             mens="...";
                                                             System.out.println("operacion no valida. Gracias por participar");
