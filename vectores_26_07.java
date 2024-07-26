@@ -25,7 +25,7 @@ public class vectores_26_07 {
         System.out.println("");
         System.out.println("con un unico nombre se define un vector");
         System.out.println("  y por medio de un subindice hacemos  ");
-        System.out.println("hacemos referencia a cada elemento del ");
+        System.out.println("     referencia a cada elemento del    ");
         System.out.println("           mismo componente            ");
 
     }
@@ -80,7 +80,7 @@ public class vectores_26_07 {
         System.out.println("teniendo en cuenta que el vector inicia desde cero");
     }
     public void ej2_1(){
-        int f,sum=0,m1,m5;
+        int f,sum=0,m1=0,m5=0,r1,r2;
         int[] var;
         System.out.println("en este ejemplo ingresaremos 5 vectores ");
         System.out.println("");
@@ -97,10 +97,8 @@ public class vectores_26_07 {
         for(f=0;f<5;f++){
             sum+=var[f];
         }
-        System.out.println( "su suma seria"+sum);
-        System.out.println("y si multiplicamos la suma por el ultimo vector 'var[5]' nos daria: "+sum*var[5]);
-        System.out.println("o si multiplicamos la suma por el primer vector 'var[5]' nos daria: "+sum*var[1]);
         System.out.println("");
+        System.out.println( "su suma seria "+sum);
 
     }
     public void fin(){
