@@ -6,10 +6,52 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "ej21_08",
             "request": "launch",
             "mainClass": "ej21_08",
             "projectName": "java_2e77a101"
+=======
+            "name": "clase_15_08",
+            "request": "launch",
+            "mainClass": "clase_15_08",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "clase_03_08",
+            "request": "launch",
+            "mainClass": "clase_03_08",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "clase_01_08",
+            "request": "launch",
+            "mainClass": "clase_01_08",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "clase2_27_07",
+            "request": "launch",
+            "mainClass": "clase2_27_07",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "clase_27_07",
+            "request": "launch",
+            "mainClass": "clase_27_07",
+            "projectName": "java_20e5623e"
+        },
+        {
+            "type": "java",
+            "name": "vectores_26_07",
+            "request": "launch",
+            "mainClass": "vectores_26_07",
+            "projectName": "java_20e5623e"
+>>>>>>> 5fe48dbdc70a519bd2e2db8bac47ce8ba8761b61
         },
         {
             "type": "java",

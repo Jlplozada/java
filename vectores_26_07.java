@@ -1,9 +1,17 @@
+
 import java.util.Scanner;
 public class vectores_26_07 {
     public Scanner teclado=new Scanner(System.in);
     public int ns;
+    public float[] cartera;
     public void err(){
         System.err.println("");
+    }
+    public void cuenta(){
+        cartera=new float[5];
+        for(int f=0;f<5;f++){
+            cartera[f]=teclado.nextFloat();
+        }
     }
     public void medida(){
         System.out.println("             Bienvenido                  ");
