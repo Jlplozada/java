@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ej21_08",
+            "request": "launch",
+            "mainClass": "ej21_08",
+            "projectName": "java_2e77a101"
+        },
+        {
+            "type": "java",
             "name": "vectores_26_07",
             "request": "launch",
             "mainClass": "vectores_26_07",
